@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_add_type_take_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Take Picture"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/dialog_add_type_get_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="23dp"
+        android:text="Get Picture"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/dialog_add_type_pick_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="23dp"
+        android:text="Pick Picture"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/dialog_add_type_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textSize="25sp"
+            android:textColor="#01579b"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/dialog_add_type_ok"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="OK"
+            android:textSize="25sp"
+            android:textColor="#01579b"/>
+
+    </LinearLayout>
+
+</LinearLayout>

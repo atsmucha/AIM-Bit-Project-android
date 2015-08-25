@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <GridView
+        android:id="@+id/fragment_main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"/>
+
+        <!--android:background="#01579b"-->
+    <!--android:stretchMode="columnWidth"-->
+    <!--android:columnWidth="180dp"-->
+    <!--<TextView-->
+        <!--android:id="@+id/testTextview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above=""-->
+        <!--android:text="This View is MainFragment~!"-->
+        <!--android:textSize="30sp"/>-->
+
+</LinearLayout>
